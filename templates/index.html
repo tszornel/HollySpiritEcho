@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <title>Bible Passages</title>
+    <script src="/static/script.js" defer></script>
+</head>
+<body>
+    <h1>Bible Passages</h1>
+    <h2>Old Testament</h2>
+    <p id="old">{{ passages['old_testament'] }}</p>
+    <h2>New Testament</h2>
+    <p id="new">{{ passages['new_testament'] }}</p>
+    <h2>Commentary</h2>
+    <p id="commentary">{{ passages['commentary'] }}</p>
+    <button id="speak">Play</button>
+</body>
+</html>
